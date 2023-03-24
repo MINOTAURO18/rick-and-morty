@@ -1,10 +1,19 @@
-body{
-   background-color: aliceblue;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
-.App {
-   margin: 30px;
-   display: flex;
-   flex-direction: column;
-   gap: 30px;
-   text-align: center;
+body{
+   background-color: rgb(192, 201, 209);
+}
+
+.hola{
+  width: 90%;
+  margin: auto;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
 }

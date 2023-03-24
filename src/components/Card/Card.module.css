@@ -1,0 +1,35 @@
+.div{
+    position: relative;
+    width: 310px;
+    height: auto;
+    border-radius:10px ;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.image{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.boton{
+    position: absolute;
+    right: 0;
+    margin: 3px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(242, 44, 44);
+}
+
+h2{
+    margin:10px;
+    font-size: 1rem;
+}
+
+.links h2{
+    color: rgb(32, 181, 12);
+    font-size: 22px;
+}

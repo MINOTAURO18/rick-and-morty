@@ -1,13 +1,13 @@
-import Card from './Card';
+import Card from '../Card/Card';
 
-export default function Cards({characters}) {
-   const alerta = () => {
-      window.alert('Emulamos que se cierra la card')
-   }
+export default function Cards({characters, onClose}) {
+   
    return (
+      
       characters.map((character,index) => {
-         return(
+         return( 
             <Card
+            id={character.id}
             key={index}
             name={character.name}
             status={character.status}
@@ -15,7 +15,7 @@ export default function Cards({characters}) {
             gender={character.gender}
             origin={character.origin.name}
             image={character.image}
-            onClose={alerta}
+            onClose={onClose}
             />
          )
       })
