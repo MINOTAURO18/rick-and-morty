@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import validation from "../../validation";
+import style from './Form.module.css'
+import image from '../../images/rick-morty.jpg'
 
 
 const Form = ({login}) => {
@@ -32,7 +34,8 @@ const Form = ({login}) => {
     }
 
     return (
-         <form onSubmit={handleSubmit}>
+         <form className={style.Form} onSubmit={handleSubmit}>
+            <img src={image} alt="imagen de rick and morty" />
             <label htmlFor="email">Email</label>
             <input value={userData.email} 
             onChange={handleChange}

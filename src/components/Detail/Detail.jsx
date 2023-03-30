@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState, useEffect  } from "react";
 import {Link, useParams} from 'react-router-dom'
-
+import style from '../Detail/Detail.module.css'
 
 const Detail = () => {
 
@@ -22,7 +22,7 @@ const Detail = () => {
   
   
   return (
-    <div>
+    <div className={style.Detail}>
       <button>
 
      <Link to='/home' >Home</Link>
