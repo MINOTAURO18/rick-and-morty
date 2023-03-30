@@ -4,7 +4,7 @@ const About = () => {
   return(
     <div className={style.About}>
      <h1>sobre el Proyecto de integracion</h1>
-     <h2>Jhon alexander Muñoz corte 36B</h2>
+     <h2>John Alexander Muñoz cohorte 36B</h2>
      <p>proyecto de integracion de rick and morty por parte de Henry, para desarrolar habilidades en react y redux</p>
 
      <span>tecnologias utilizadas</span>
