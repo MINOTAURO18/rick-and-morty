@@ -1,0 +1,9 @@
+.Favorites{
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
